@@ -6,13 +6,17 @@
 
 ## Practical work
 
-### Keyclock configuration
+### Keyclock configuration (Part 1)
 
 - first we will open keyclock with the docker and do the following steps:
   - create a new realm
-  - create a role in the realm
-  - create a user and assign the role to it
-  - create a new client which is the react client
+  - create two roles in the realm (student and admin)
+  - create new users and assign the roles to them
+  - create a new client which is the React client
+
+- here are the users created
+
+![](img/img.png)
 
 - Next step is to create a spring boot project with the following dependencies
 ```xml
@@ -33,6 +37,10 @@
 ```properties
 spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/realms/enset-realm
 ```
+
+# 
+
+
 
 
 
