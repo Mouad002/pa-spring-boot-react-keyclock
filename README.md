@@ -52,9 +52,17 @@ spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/realm
 
 ![](img/img_3.png)
 
+### Endpoint of getting courses
 
+![](img/img_4.png)
 
+### Unauthorized for normal student to add courses
 
+![](img/img_5.png)
+
+### Authorized for admin to add students
+
+![](img/img_6.png)
 
 
 
