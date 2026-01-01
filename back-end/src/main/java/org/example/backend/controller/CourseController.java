@@ -1,5 +1,7 @@
 package org.example.backend.controller;
 
+import org.example.backend.dto.UserInfoDTO;
+import org.example.backend.model.Course;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;

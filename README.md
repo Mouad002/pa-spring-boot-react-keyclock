@@ -38,7 +38,21 @@
 spring.security.oauth2.resourceserver.jwt.issuer-uri=http://localhost:8080/realms/enset-realm
 ```
 
-# 
+## Screenshots
+
+### Project architecture
+
+![](img/img_2.png)
+
+### Keycloak login success
+
+![](img/img_1.png)
+
+### User info endpoint
+
+![](img/img_3.png)
+
+
 
 
 
